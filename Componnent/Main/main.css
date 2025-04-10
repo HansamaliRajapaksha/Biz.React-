@@ -1,0 +1,27 @@
+/* main.css */
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient( rgba(48, 30, 167, 0.7), rgba(174, 177, 16, 0.7),rgba(48, 30, 167, 0.7)),
+   url('/public/main.jpg') ;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-text {
+  text-align: center;
+  max-width: 1000px;
+}
+.main-text h1{
+  font-size: 100px;
+  font-weight: 600;
+}
+.main-text p{
+  max-width: 800px;
+  margin: 10px auto 20px;
+  line-height:1.5 ;
+}
